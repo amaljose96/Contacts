@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { colors, device } from "../../../theme";
 
 export const HeaderContainer = styled.div`
-  height: ${device === "Desktop" ? "60px" : "50vh"};
+  height: ${device === "Desktop" ? "60px" : "40vh"};
   background-color: rgba(${colors.r}, ${colors.g}, ${colors.b}, 0.6);
   color: #fff;
   width: calc(100% - 20px);
