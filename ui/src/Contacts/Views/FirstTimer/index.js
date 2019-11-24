@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { device } from "../../theme";
+import { device } from "../../localStorage";
 import {
   FirstTimerContainer,
   FirstTimerHeading,

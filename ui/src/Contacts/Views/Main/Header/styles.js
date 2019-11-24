@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors, device } from "../../../theme";
+import { colors, device } from "../../../localStorage";
 
 export const HeaderContainer = styled.div`
   height: ${device === "Desktop" ? "60px" : "40vh"};

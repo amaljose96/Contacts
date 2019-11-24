@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { device } from "../../../theme";
+import { device } from "../../../localStorage";
 export const ContactsListContainer = styled.div`
   display: ${device === "Desktop" ? "flex" : "block"};
   flex-wrap: wrap;

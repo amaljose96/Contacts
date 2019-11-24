@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors } from '../../theme';
+import { colors } from '../../localStorage';
 
 
 export const LostContainer=styled.div`

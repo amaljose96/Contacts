@@ -1,5 +1,5 @@
 import React from "react";
-import { device } from "../../../theme";
+import { device } from "../../../localStorage";
 import { HeaderContainer, HeaderLeft, HeaderCenter, HeaderRight } from "./styles";
 import MenuIcon from '../../../Components/Icons/Menu';
 import SearchIcon from '../../../Components/Icons/Search';
@@ -11,7 +11,7 @@ function Header(props) {
         <div />
       ) : (
         <HeaderLeft>
-          <MenuIcon />
+          <MenuIcon onClick={props.openMenu}/>
         </HeaderLeft>
       )}
 

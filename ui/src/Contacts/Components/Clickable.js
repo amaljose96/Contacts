@@ -7,5 +7,8 @@ const Clickable=styled(Link)`
     }
     text-decoration:none;
     transition:all 1s;
+    :active{
+        color:inherit
+    }
 `;
 export default Clickable

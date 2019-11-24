@@ -5,7 +5,7 @@ import AddIcon from '../../../Components/Icons/Add';
 import {QuickAccessContainer} from './styles';
 function MobileQuickAccess(props){
     return <QuickAccessContainer>
-        <MenuIcon/>
+        <MenuIcon onClick={props.openMenu}/>
         <SearchIcon/>
         <AddIcon/>
     </QuickAccessContainer>;
