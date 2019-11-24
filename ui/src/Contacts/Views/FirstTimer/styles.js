@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors } from '../../fakeStore';
+import { colors } from '../../theme';
 import Clickable from '../../Components/Clickable';
 export const FirstTimerContainer = styled.div`
     height:100%;

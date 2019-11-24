@@ -4,6 +4,7 @@ import Induction from "./Views/Induction";
 import { AppContainer } from "./styles";
 import Lost from "./Views/Lost";
 import FirstTimer from "./Views/FirstTimer";
+import Main from "./Views/Main";
 
 function ContactsApp(props) {
   return (
@@ -15,6 +16,9 @@ function ContactsApp(props) {
           </Route>
           <Route path="/first-timer">
               <FirstTimer/>
+          </Route>
+          <Route path="/main">
+              <Main/>
           </Route>
           <Route path="/">
               <Lost/>

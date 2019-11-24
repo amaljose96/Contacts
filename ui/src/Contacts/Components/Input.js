@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors } from '../fakeStore';
+import { colors } from '../theme';
 
 const Input=styled.input`
     webkit-appearance:none;

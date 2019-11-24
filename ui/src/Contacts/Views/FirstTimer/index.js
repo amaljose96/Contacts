@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { device } from "../../fakeStore";
+import { device } from "../../theme";
 import {
   FirstTimerContainer,
   FirstTimerHeading,
   FirstTimerSubmitContainer,
-  FirstTimerSubmit,
+  FirstTimerSubmit
 } from "./styles";
 import FirstTimerForm from "./FirstTimerForm";
 import Container from "../../Components/Container";
@@ -28,7 +28,8 @@ function FirstTimer(props) {
       <Container>
         <FirstTimerForm formData={formData} setFormData={changeFormData} />
         <FirstTimerSubmitContainer>
-        <FirstTimerSubmit>Continue</FirstTimerSubmit></FirstTimerSubmitContainer>
+          <FirstTimerSubmit to="/main">Continue</FirstTimerSubmit>
+        </FirstTimerSubmitContainer>
       </Container>
     </FirstTimerContainer>
   );

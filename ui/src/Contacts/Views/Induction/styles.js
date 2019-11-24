@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors, device } from "../../fakeStore";
+import { colors, device } from "../../theme";
 import Clickable from "../../Components/Clickable";
 export const InductionContainer = styled.div`
   display: flex;

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors } from '../../fakeStore';
+import { colors } from '../../theme';
 
 
 export const LostContainer=styled.div`

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { device } from "../fakeStore";
+import { device } from "../theme";
 
 const Container = styled.div`
   width: ${device === "Desktop"
